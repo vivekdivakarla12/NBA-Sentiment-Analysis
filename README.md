@@ -11,14 +11,23 @@ This is an example of the last 15 reddit posts from the Cleveland Cavaliers subr
 After retrieving data for all thirty teams, the main method was to utilize the SentimentIntensityAnalyzer from vaderSentiment. For each comment, I calculated the polarity scores, and for each team, I created a happiness index to which calculates the average sentiment score over the posts from the team's subreddit. The second index was based on the most recent posts from each team's subreddit. Once the indexes were created for each team, I pulled different statistics as ways to categorize NBA teams, including Win%, Win% last 10 games, Total Cap Space, and Wins Above Expected. After creating this dataframe, I utilized the df.corr to measure the correlation on each feature.
 ### Results
 WordCloud of the Cavs Subreddit
+
 <img width="394" alt="Screenshot 2024-04-21 at 1 34 56 PM" src="https://github.com/vivekdivakarla12/NBA-Sentiment-Analysis/assets/11672096/221934ab-c23e-48aa-995d-d757c3530cde">
+
 Happiness Index of NBA teams
+
 <img width="503" alt="Screenshot 2024-04-21 at 1 35 31 PM" src="https://github.com/vivekdivakarla12/NBA-Sentiment-Analysis/assets/11672096/b59e0056-60b2-4e3f-bb69-101ddbd60e4b">
+
 Happiness Index of NBA teams, more recently weighted
+
 <img width="497" alt="Screenshot 2024-04-21 at 1 38 57 PM" src="https://github.com/vivekdivakarla12/NBA-Sentiment-Analysis/assets/11672096/8822e34c-8431-48a7-90dd-e500b6368441">
+
 Correlation between features and Happiness Index
+
 <img width="401" alt="Screenshot 2024-04-21 at 1 36 49 PM" src="https://github.com/vivekdivakarla12/NBA-Sentiment-Analysis/assets/11672096/9d49f29f-653d-4abb-9756-e6383b81804f">
+
 Correlation between features and Happiness Index, more recently weighted
+
 <img width="508" alt="Screenshot 2024-04-21 at 1 37 54 PM" src="https://github.com/vivekdivakarla12/NBA-Sentiment-Analysis/assets/11672096/8a8fcf95-34db-487e-8510-0017f6d13d07">
 
 ### Discussion
